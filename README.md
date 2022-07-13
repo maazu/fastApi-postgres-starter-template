@@ -25,7 +25,8 @@ docker-compose up
 
 Access docs at http://localhost:8080/docs/
 
-Access pgAdmin at http://localhost:5050/
+**PgAdmin**
+Access pgAdmin at http://localhost:5050/, use login and password specified in env file.
 
 To shutdown
 
