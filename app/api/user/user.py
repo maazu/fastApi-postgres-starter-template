@@ -5,7 +5,7 @@ from app.core.exceptions import DuplicatedEntryError
 from app.db.session import get_session
 from sqlalchemy.exc import IntegrityError
 from app.models.user import User 
-from app.schema.user import User as UserSchema, UserInDBBase
+from app.schemas.user import User as UserSchema, UserInDBBase
 
 user_route = APIRouter()
 
