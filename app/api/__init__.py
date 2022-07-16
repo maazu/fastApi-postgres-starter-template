@@ -1,5 +1,5 @@
-from app.api.v1 import v1_routes
 from fastapi import APIRouter
+from .user import user_route
 
-api_router = APIRouter(prefix="/api")
-api_router.include_router(v1_routes)
+api_routes = APIRouter(prefix="/v1")
+api_routes.include_router(user_route)
